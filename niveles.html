@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://kit.fontawesome.com/955841eb77.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/niveles.css" />
+
+    <title>Niveles</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <div ><a href="index1.1.html" class="logo slogan" id="slogan">My Logic</a></div>
+                <div class="menu">
+                    <a href="index1.1.html">Inicio</a>
+                    <a href="perfil.html">Perfil</a>
+                    <a href="niveles.html">Niveles</a>
+                    <a href="#">Comentanos</a>
+                    <button type="button" class="btn btn-primary"><a href="index.html">Cerrar sesion</a></button>
+                </div>
+            </nav>
+        </header>
+        <center>
+            <section id="niveles">
+                <section class="dos">
+
+                    <h1>
+                        <b>
+                            Niveles
+                        </b>
+                    </h1>
+                    <div class="ventana" id="vent">
+                        <div id="cerrar"><a href="javascript:cerrar()"><img src="css/img/error.png" width="40"
+                                    height="40"></a>
+                        </div>
+
+                        <h1><br>Nivel 1:
+                            <br><br>¿El padre de Ana tiene 4 hijos: Pepe, Popi, Pipu y... ¿quién es el cuarto?
+                            <br><br><a href="javascript: opcion()">A)</a>Ana
+                            <br><a href="opcion">B)</a>Maria
+                            <br><a href="opcion">C)</a>Pupi
+                            <br><a href="opcion">D)</a>Pepu</h1>
+
+                    </div>
+                    <button id="boton">
+                        <a href="javascript:abrir()">
+                            1
+                        </a>
+                    </button>
+                    <button id="boton">
+                        <a href="">
+                            2
+                        </a>
+                    </button>
+                    <button id="boton">
+                        <a href="">
+                            3
+                        </a>
+                    </button>
+
+                </section>
+        </center>
+    </main>
+    <script>
+        function abrir() {
+            document.getElementById("vent").style.display = "block";
+        }
+        function cerrar() {
+            document.getElementById("vent").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

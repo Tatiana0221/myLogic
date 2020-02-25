@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url(img/login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+.contenedor{
+    background-color: rgba(0, 0, 0,.8);
+    display: flex;
+    width: 650px;
+    height: 420px;
+    margin-top: 120px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+
+
+.registro, .login{
+    flex: 1;
+}
+
+.registro{
+    padding: 40px;
+    position: relative;
+}
+
+.registro h2{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.registro input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: rgb(0, 0, 0);
+}
+
+.registro input:active,
+.registro input:focus{
+    outline: none;
+}
+
+
+
+/*Dar estilo al contenedor*/

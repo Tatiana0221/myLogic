@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    
+    background-color: rgba(0, 0, 0,0.7);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+
+
+.logo{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+
+    
+}
+
+#slogan{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+header nav{
+    text-decoration: none;
+    padding-top: 1%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: ease 1000ms;
+    color: #FFF;
+    
+}
+header nav button{
+    background-color: rgb(69, 112, 253);
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+}
+header  nav a:hover{
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(img/fondo_perfil.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.perfil_box {
+    width: 80%;
+    height: 100vh;
+    padding: 250px;
+}
+
+.perfil {
+    padding: 40px;
+    position: relative;
+}
+.perfil img{
+    width: 45%;
+    height: 45%;
+    margin-top: -190px;
+    padding-bottom: 10px;
+}
+
+.perfil input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+}
+
+.perfil .submit {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    border-top: .5px solid #FFF;
+    border-right: .5px solid #FFF;
+    border-bottom: .5px solid #FFF;
+    border-left: .5px solid #FFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-size: cover;
+
+}

@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background: url(img/login.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+.login-contenedor{
+    background-color: rgba(0, 0, 0,.8);
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin-top: 190px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+}
+
+/*dar estilo al titulo iniciar sesion*/
+.login h2{
+    padding-top: 20px;
+    Height: 50px;
+    margin-left: 45%;
+    color: rgb(255, 255, 255);
+}
+
+ 
+.login input{
+    width: 80%; 
+    padding: 4px;
+    margin-left: 33%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #000
+}
+.btn{
+    margin-left: 170px;
+}
+
+
+
+
